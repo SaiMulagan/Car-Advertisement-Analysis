@@ -15,4 +15,3 @@ if st.checkbox('Show Age vs Price Scatter Plot'):
     fig_scatter = px.scatter(df, x="age", y="price", title="Age vs Price")
     st.plotly_chart(fig_scatter)
 
-streamlit run app.py
